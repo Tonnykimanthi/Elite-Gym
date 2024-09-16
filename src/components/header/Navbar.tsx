@@ -1,12 +1,12 @@
+import { navList } from "./navList";
+
 const Navbar = () => {
   return (
-    <nav className="p-2 px-4 rounded-md bg-white/20">
+    <nav className="rounded-md bg-white/20 p-2 px-4">
       <ul className="flex items-center gap-x-8">
-        <li>About</li>
-        <li>Membership</li>
-        <li>Blog</li>
-        <li>Blog</li>
-        <li>Blog</li>
+        {navList.map((item) => (
+          <li className="cursor-pointer">{item}</li>
+        ))}
       </ul>
     </nav>
   );

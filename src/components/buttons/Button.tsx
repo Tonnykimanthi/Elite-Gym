@@ -7,7 +7,9 @@ type ButtonProps = {
 
 const Button = ({ text, styles }: ButtonProps) => {
   return (
-    <div className={`group flex items-center gap-x-2 px-4 py-2 ${styles}`}>
+    <div
+      className={`group flex items-center gap-x-2 px-4 py-2 active:scale-95 ${styles}`}
+    >
       <span>{text}</span>
       <GoArrowRight className="size-6 transition group-hover:translate-x-1" />
     </div>
