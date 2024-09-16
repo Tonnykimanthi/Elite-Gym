@@ -11,7 +11,7 @@ type NavbarProps = {
 const Navbar = ({ navIsOpen, setNavIsOpen }: NavbarProps) => {
   return (
     <nav
-      className={`bg-light/20 max-sm:bg-dark/80 inset-0 origin-top-right rounded-md p-2 px-4 transition max-sm:absolute ${navIsOpen ? "" : "max-sm:scale-0 max-sm:opacity-0"}`}
+      className={`bg-light/20 max-sm:bg-dark/95 inset-0 origin-top-right rounded-md p-2 px-4 transition max-sm:absolute ${navIsOpen ? "" : "max-sm:scale-0 max-sm:opacity-0"}`}
     >
       <button
         className="absolute right-3 top-3 sm:hidden"

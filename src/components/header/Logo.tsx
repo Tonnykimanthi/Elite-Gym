@@ -1,5 +1,5 @@
 const Logo = () => {
-  return <div className="text-xl font-medium">ELITEGYM</div>;
+  return <div className="text-xl font-bold">ELITEGYM</div>;
 };
 
 export default Logo;

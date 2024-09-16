@@ -31,10 +31,10 @@ const Header = () => {
           vibrant community designed to motivate and empower every step of the
           way.
         </p>
-        <button>
+        <button className="mt-5">
           <Button
             text="Explore more"
-            styles="bg-primary text-black mt-2 rounded hover:bg-primary/80 transition"
+            styles="bg-primary text-black rounded hover:bg-primary/80 transition"
           />
         </button>
       </div>
