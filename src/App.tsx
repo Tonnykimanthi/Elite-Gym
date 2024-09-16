@@ -3,6 +3,7 @@ import Header from "./components/header/Header";
 // Images
 import headerBg from "./assets/headerBg.avif";
 import TrainingSection from "./components/training/TrainingSection";
+import MembershipSection from "./components/membership/MembershipSection";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Header />
       </div>
       <TrainingSection />
+      <MembershipSection />
     </>
   );
 }
