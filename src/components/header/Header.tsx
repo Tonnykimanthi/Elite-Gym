@@ -14,6 +14,7 @@ const Header = () => {
       <div className="flex items-center justify-between">
         <Logo />
         <Navbar navIsOpen={navIsOpen} setNavIsOpen={setNavIsOpen} />
+        <button className="py-2 px-5 rounded bg-primary hover:bg-primary/80 active:scale-90 transition text-dark hidden sm:block">Sign up</button>
         <button
           className={`sm:hidden ${navIsOpen ? "hidden" : ""}`}
           onClick={() => setNavIsOpen(true)}
