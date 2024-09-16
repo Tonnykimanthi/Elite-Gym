@@ -21,7 +21,7 @@ const Header = () => {
           <RiMenu3Fill className="size-8" />
         </button>
       </div>
-      <div className="mt-20 max-w-lg">
+      <div className="mt-20 max-sm:text-center sm:max-w-lg">
         <h1 className="text-5xl font-bold uppercase">
           Your Fitness Journey Begins at EliteGym
         </h1>
