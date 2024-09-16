@@ -1,17 +1,31 @@
-import FreeTrial from "./FreeTrial"
+// Components
+import FreeTrial from "./FreeTrial";
+import TrainersCard from "./TrainersCard";
+// Images
+import trainingImage from "../../assets/training1.avif";
 
 const TrainingSection = () => {
   return (
-    <section className="p-8 pt-10 grid grid-cols-3 grid-rows-2 gap-5 border">
-        <div>
-            <h2 className="uppecase text-5xl font-bold">Personal Training</h2>
+    <section className="grid grid-cols-3 gap-5 p-8 pt-10 max-md:grid-cols-1">
+      <div className="flex flex-col justify-between">
+        <h2 className="uppecase text-5xl font-bold">Personal Training</h2>
+        <div className="max-md:hidden size-40">
+          <FreeTrial />
         </div>
+      </div>
+      <div className="overflow-hidden rounded-2xl">
+        <img
+          className="h-full w-full object-cover"
+          src={trainingImage}
+          alt="A lady training in the gym"
+        />
+      </div>
+      <div className="mx-auto hidden max-md:block">
         <FreeTrial />
-        <div className="row-span-2 border">
-            <img className="h-full w-full object-cover" src="https://images.unsplash.com/photo-1546749876-2088f8b19e09?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3ltJTIwZ2lybHxlbnwwfHwwfHx8MA%3D%3D" alt="A lady training in the gym" />
-        </div>
+      </div>
+      <TrainersCard />
     </section>
-  )
-}
+  );
+};
 
-export default TrainingSection
+export default TrainingSection;

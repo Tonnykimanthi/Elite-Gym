@@ -3,7 +3,7 @@ import { GoArrowRight } from "react-icons/go";
 
 const FreeTrial = () => {
   return (
-    <div className="row-start-2 size-40 rounded-lg bg-slate-800 p-5">
+    <div className="rounded-lg bg-slate-800 p-5">
       <h4 className="text-xl font-medium uppercase">We offer</h4>
       <p className="text-sm">Free trial sessions for new members</p>
       <button className="bg-light text-dark hover:bg-light/80 group mt-2 flex items-center gap-x-2 rounded-full px-3 py-1 text-sm transition active:scale-95">
