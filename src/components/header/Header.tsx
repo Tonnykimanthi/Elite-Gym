@@ -1,14 +1,25 @@
+import { useState } from "react";
 // Components
 import Button from "../buttons/Button";
 import Logo from "./Logo";
 import Navbar from "./Navbar";
+// Icons
+import { RiMenu3Fill } from "react-icons/ri";
 
 const Header = () => {
+  const [navIsOpen, setNavIsOpen] = useState(false);
+
   return (
     <header className="p-3">
       <div className="flex items-center justify-between">
         <Logo />
-        <Navbar />
+        <Navbar navIsOpen={navIsOpen} setNavIsOpen={setNavIsOpen} />
+        <button
+          className={`sm:hidden ${navIsOpen ? "hidden" : ""}`}
+          onClick={() => setNavIsOpen(true)}
+        >
+          <RiMenu3Fill className="size-8" />
+        </button>
       </div>
       <div className="mt-20 max-w-lg">
         <h1 className="text-5xl font-bold uppercase">
