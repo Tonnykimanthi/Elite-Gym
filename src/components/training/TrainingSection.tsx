@@ -8,8 +8,10 @@ const TrainingSection = () => {
   return (
     <section className="grid grid-cols-3 gap-5 p-8 pt-10 max-md:grid-cols-1">
       <div className="flex flex-col justify-between">
-        <h2 className="uppecase text-5xl font-bold">Personal Training</h2>
-        <div className="max-md:hidden size-40">
+        <h2 className="uppecase text-5xl font-bold max-sm:text-4xl">
+          Personal Training
+        </h2>
+        <div className="size-40 max-md:hidden">
           <FreeTrial />
         </div>
       </div>
