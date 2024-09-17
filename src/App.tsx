@@ -3,7 +3,7 @@ import Header from "./components/header/Header";
 // Images
 import headerBg from "./assets/headerBg.avif";
 import TrainingSection from "./components/training/TrainingSection";
-import MembershipSection from "./components/membership/MembershipSection";
+import Membership from "./components/membership/Membership";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <Header />
       </div>
       <TrainingSection />
-      <MembershipSection />
+      <Membership />
     </>
   );
 }

@@ -1,4 +1,4 @@
-const MembershipSection = () => {
+const Membership = () => {
   return (
     <section className="mt-5 bg-slate-800 pt-10">
       <h2 className="text-center text-5xl font-bold uppercase">
@@ -8,4 +8,4 @@ const MembershipSection = () => {
   );
 };
 
-export default MembershipSection;
+export default Membership;
