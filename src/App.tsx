@@ -1,9 +1,10 @@
 // Components
 import Header from "./components/header/Header";
-// Images
-import headerBg from "./assets/headerBg.avif";
 import TrainingSection from "./components/training/TrainingSection";
 import Membership from "./components/membership/Membership";
+import Testimonials from "./components/testimonials/Testimonials";
+// Images
+import headerBg from "./assets/headerBg.avif";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       </div>
       <TrainingSection />
       <Membership />
+      <Testimonials />
     </>
   );
 }

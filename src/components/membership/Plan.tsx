@@ -24,7 +24,7 @@ const Plan = () => {
           <div className="mt-8 space-y-2">
             {item.plans.map((plan, i) => (
               <div key={i} className="flex items-center gap-x-5">
-                <FaRegCheckCircle className="size-6 flex-shrink-0 text-secondary" />
+                <FaRegCheckCircle className="size-6 flex-shrink-0 text-dark" />
                 <span>{plan}</span>
               </div>
             ))}
