@@ -6,7 +6,7 @@ const Story = () => {
       {testimonialsList.map((item, index) => (
         <div
           key={index}
-          className="relative rounded-xl bg-dark/50 p-5 shadow-lg shadow-dark/50"
+          className="relative nrounded-xl bg-dark/50 p-5 shadow-lg shadow-dark/50"
         >
           <img
             className="absolute -top-14 left-1/2 size-24 -translate-x-1/2 rounded-full border-4 border-primary object-cover"

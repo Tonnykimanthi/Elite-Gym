@@ -5,6 +5,7 @@ import Membership from "./components/membership/Membership";
 import Testimonials from "./components/testimonials/Testimonials";
 // Images
 import headerBg from "./assets/headerBg.avif";
+import Success from "./components/testimonials/Success";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       </div>
       <TrainingSection />
       <Membership />
+      <Success />
       <Testimonials />
     </>
   );
