@@ -2,10 +2,11 @@
 import Header from "./components/header/Header";
 import TrainingSection from "./components/training/TrainingSection";
 import Membership from "./components/membership/Membership";
+import Success from "./components/testimonials/Success";
 import Testimonials from "./components/testimonials/Testimonials";
+import NewsletterSection from "./components/newsletter/NewsletterSection";
 // Images
 import headerBg from "./assets/headerBg.avif";
-import Success from "./components/testimonials/Success";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Membership />
       <Success />
       <Testimonials />
+      <NewsletterSection />
     </>
   );
 }
