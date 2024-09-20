@@ -7,7 +7,7 @@ import { FaLinkedinIn } from "react-icons/fa6";
 const Location = () => {
   return (
     <div className="max-sm:text-center">
-      <div className="text-4xl font-bold">LOGO</div>
+      <div className="text-2xl italic font-bold">ELITEGYM</div>
       <p className="mt-2">123 CBD.</p>
       <p>Nairobi, Moi avenue</p>
       <p>123@gmail.com</p>
