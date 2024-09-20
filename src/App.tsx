@@ -7,6 +7,7 @@ import Testimonials from "./components/testimonials/Testimonials";
 import NewsletterSection from "./components/newsletter/NewsletterSection";
 // Images
 import headerBg from "./assets/headerBg.avif";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Success />
       <Testimonials />
       <NewsletterSection />
+      <Footer />
     </>
   );
 }
